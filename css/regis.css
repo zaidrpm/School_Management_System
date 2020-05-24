@@ -1,0 +1,94 @@
+@font-face {
+font-family:'Poppins';
+src:url('rail++.ttf');
+}
+div#bg {
+background-image: url("re.png");
+background-repeat:repeat;
+width:100%;
+border:3px solid black;
+border-top-width:0px;
+height:100%;
+}
+div#head {
+background: red;
+  background: -webkit-linear-gradient(left, #666666,black, #666666);
+  background: -o-linear-gradient(to right, #666666,black, #666666);
+  background: -moz-linear-gradient(to right, #666666,black, #666666);
+  background: linear-gradient(to right, #666666,black, #666666);
+text-align:center;
+border:3px solid black;
+position:fixed;
+top:2px;
+right:0px;
+left:0px;
+z-index:2;
+font-family:Poppins,verdana,sans-serif;
+font-size:55px;
+color:white;
+box-shadow:0px 10px 7px 3px #ccebff;
+border-radius:10px;
+opacity:.8;
+line-height:15mm;
+}
+div#main {
+width:80%;
+background-color:white; 
+box-shadow:15px 15px 10px grey,-15px -15px 10px grey;
+padding:5mm;
+padding-top:5mm;
+padding-right:1mm;
+margin:auto;
+}
+x {
+font-size:35px;
+color:#f06e6c;
+font-weight:bold;
+font-family:'Poppins',verdana,sans-serif;
+}
+h1 {
+font-family:'Poppins',verdana,sans-serif;
+font-size:25px;
+color:grey;
+}
+table#cen {
+text-align:left;
+border:1px solid black;
+width:400px;
+border-radius:10px;
+border:3px solid gray;
+box-shadow:7px 7px 7px #f15b5b,-7px -7px 7px #f15b5b;
+}
+td {
+text-align:center;
+overflow:scroll;
+vertical-align:center;
+border:1px solid gray;
+}
+#ssc {
+width:90%;
+font-size:15px;
+line-height:25px;
+}
+#bbt {
+font-size:20px;
+padding:5px;
+background:linear-gradient(#f15b5b,#f9b9b9,#f15b5b);
+color:white;
+border-radius:20px;
+}
+#sdf {
+font-family:'Poppins',verdana,sans-serif;
+font-size:17px;
+color:black;
+}
+div#nav {
+position:fixed;
+left:1px;
+bottom:1px;
+opacity:.9;
+display:inline-block;
+text-align:center;
+padding-left:5mm;
+z-index:6;
+}

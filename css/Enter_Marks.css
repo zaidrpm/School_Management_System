@@ -1,0 +1,13 @@
+#main {
+border-spacing:0px;
+}
+td {
+border:2px solid black;
+border-collapse:collapse;
+}
+.hid {
+display:none;
+}
+.num {
+width:70px;
+}

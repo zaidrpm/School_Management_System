@@ -1,0 +1,61 @@
+.hid {
+display:none;
+}
+div#fil {
+position:fixed;
+top:2px;
+left:2px;
+right:2px;
+height:100%;
+width:99%;
+z-index:2;
+background-color:black;
+opacity:.8;
+display:none;
+}
+div#in{
+background-color:white;
+border:2px solid black;
+position:fixed;
+top:20%;
+left:50%;
+padding:20px;
+border-radius:20px;
+z-index:3;
+display:none;
+width:200px;
+height:300px;
+margin-left:-135px;
+}
+td {
+display:block;
+text-align:center;
+height:50px;
+border:1px solid black;
+border-collapse:collapse;
+}
+button#delb {
+width:197px;
+}
+button {
+width:97px;
+}
+#mkk {
+width:197px;
+height:34px;
+font-size:28px;
+text-align:center;
+}
+table#main {
+border:2px solid black;
+width:100%;
+}
+div#nav {
+position:fixed;
+left:1px;
+bottom:1px;
+opacity:.9;
+display:inline-block;
+text-align:center;
+padding-left:5mm;
+}

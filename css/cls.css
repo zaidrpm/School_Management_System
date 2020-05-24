@@ -1,0 +1,88 @@
+@font-face {
+font-family:'Poppins';
+src:url(rail++.ttf);
+}
+div#head {
+background: red;
+  background: -webkit-linear-gradient(left, #666666,black, #666666);
+  background: -o-linear-gradient(to right, #666666,black, #666666);
+  background: -moz-linear-gradient(to right, #666666,black, #666666);
+  background: linear-gradient(to right, #666666,black, #666666);
+text-align:center;
+border:3px solid black;
+position:fixed;
+top:2px;
+right:0px;
+left:0px;
+z-index:2;
+font-family:Poppins,verdana,sans-serif;
+font-size:55px;
+color:white;
+box-shadow:0px 10px 7px 3px #ccebff;
+border-radius:10px;
+opacity:.8;
+line-height:15mm;
+}
+p#sp {
+line-height:5mm;
+}
+x {
+font-size:55px;
+color:#f06e6c;
+font-weight:bold;
+}
+p#cl {
+font-family:'Poppins',verdana,sans-serif;
+font-size:30px;
+text-align:center;
+color:grey;
+text-decoration:underline;
+}
+.df {
+font-family:'Poppins',verdana,sans-serif;
+font-size:30px;
+color:white;
+font-weight:normal;
+background:linear-gradient(#f15b5b,#f9b9b9,#f15b5b);
+font-weight:bold;
+}
+td {
+border-collapse:collapse;
+text-align:center;
+border:1px solid black;
+font-family:'Poppins',sans-serif;
+font-size:22px;
+padding:3px;
+}
+table#main {
+width:100%;
+border:3px solid #ed4845;
+}
+a {
+border-left-width:0px;
+}
+b {
+border-right-width:0px;
+}
+tr:nth-child(even) td {
+background-color:#fbd0d0;
+}
+p#lop {
+font-family:'Poppins',verdana,sans-serif;
+font-size:22px;
+color:grey;
+text-align:center; 
+border:3px solid #ed4845;
+border-left-width:0px;
+border-right-width:0px;
+}
+div#nav {
+position:fixed;
+left:1px;
+bottom:1px;
+opacity:.9;
+display:inline-block;
+text-align:center;
+padding-left:1mm;
+z-index:6;
+}
